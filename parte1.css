@@ -2,8 +2,17 @@ body {
     margin: 0;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 li {
     list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 header {
@@ -12,15 +21,14 @@ header {
     justify-content: space-around;
     align-items: baseline;
     flex-wrap: wrap;
-    padding: 8px 0 0 0;
-    background-color: #eae4cb ;
-    border-bottom : 7px solid #d87111;
+    padding: 8px 0 7px 0;
+    background-color: #eae4cb;
+    border-bottom: 7px solid #d87111;
 }
 
 header li {
-    display: inline;
-    border: 3px solid red;
-/*Generado con: https://css3buttongenerator.com/ */
+    display: inline-block;
+    /*Generado con: https://css3buttongenerator.com/ */
     -webkit-border-radius: 18;
     -moz-border-radius: 18;
     border-radius: 18px;
@@ -28,7 +36,7 @@ header li {
     color: #090a0a;
     font-size: 20px;
     background: #eae4cb;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 18px 10px 18px;
     border: solid #7d777d 1px;
     text-decoration: none;
 }
@@ -37,6 +45,7 @@ header li:hover {
     background: #d3d6d8;
     text-decoration: none;
 }
+
 /* ******* */
 
 h1 {
@@ -51,10 +60,6 @@ h2 {
     padding: 0 0 45px;
     color: azure;
     text-align: center;
-}
-
-a {
-    text-decoration: none;
 }
 
 .camionetas {
@@ -72,18 +77,6 @@ a {
 .urbanos {
     background-color: #a8a7bd;
 }
-
-form {
-    width: 40%;
-    padding: 35px;
-    margin: 55px auto 55px;
-    border: 1px solid rgb(41, 38, 74);
-/* Creado con: https://css3buttongenerator.com/ */
-    box-shadow: 1px 2px 31px 21px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 1px 2px 31px 21px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 1px 2px 31px 21px rgba(0, 0, 0, 0.75);
-}
-
 
 main section {
     margin: 0;
@@ -162,6 +155,17 @@ img {
     padding: 0 25px 0 0;
 }
 
+form {
+    width: 40%;
+    padding: 35px;
+    margin: 55px auto 55px;
+    border: 1px solid rgb(41, 38, 74);
+    /* Creado con: https://css3buttongenerator.com/ */
+    box-shadow: 1px 2px 31px 21px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 2px 31px 21px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 2px 31px 21px rgba(0, 0, 0, 0.75);
+}
+
 .forminp {
     width: 90%;
 }
@@ -235,4 +239,23 @@ footer p {
     text-align: center;
     color: #ffffff;
     margin: 0px;
+}
+
+@media screen and (max-width: 950px) {
+    .col_detalles {
+        width: 90%;
+    }
+
+    .col_slider {
+        width: 55%;
+    }
+
+    form {
+        width: 65%;
+    }
+
+    header li {
+        padding: 4px;
+        font-size: 16px;
+    }
 }

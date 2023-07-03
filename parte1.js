@@ -17,9 +17,8 @@ function imprimePorConsola() {
         console.log("El cliente " + nombre + " ha solicitado información sobre " + tipo + " de la marca " + marca + " de " + gama);
         console.log("Se debe remitir la información al mail: " + mail);
         console.log("El cliente " + acepta + " recibir publicidad");
-    }else {
+    } else {
         console.log("Debe ingresar los datos correctamente")
-
     }
 
 }

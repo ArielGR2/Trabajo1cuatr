@@ -5,68 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parte 2</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./parte2.css">
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-       
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 </head>
-    
+
 <body>
-
     <header>
-         <h1>Agenda de temas</h1>
+        <h1>Agenda de temas</h1>
     </header>
-    
-    <main class="contenedor">
-        
-        <section class="main_izquierda" id="tareas1"  onchange="agregaBorrar()">
 
-         
-         <!-- <li> <p>Entregar Oficio en el Hospital antes de las 12:00</p>
-                <select style="height: 19px;"     name="" id="" class="tareasAgregadas">
+    <main class="contenedor">
+
+        <section class="main_izquierda" id="tareas1" onchange="agregaBorrar()">
+            <!-- <li> <p>Entregar carpeta en el Hospital antes de las 12:00</p>
+                <select name="" id="" class="tareasAgregadas">
                     <option value="">Pendiente de asignación</option>
                     <option value="">Jose</option>
                     <option value="">Manuel</option>
                     <option value="Concluido">Finalizado</option>
                 </select>
                 <input value="Desea Borrar?" onclick="borraLinea()" id="Btn_borrar" class="Btn_borrar" type="button"> 
-            </li>
-          <li> Llamar a Fiscalía para informar sobre el caso Alvarez
-                <select name="" id="" class="tareasAgregadas">
-                    <option value="">Pendiente de asignación</option>
-                    <option value="">Jose</option>
-                    <option value="">Manuel</option>
-                    <option value="Concluido">Finalizado</option>
-                </select>
-                <input value="Desea Borrar?" class="Btn_borra" type="button"> 
-            </li>
-            <li> Tomar audiencia de mediación 10:30
-                <select name="" id="" class="tareasAgregadas">
-                    <option value="">Pendiente de asignación</option>
-                    <option value="">Jose</option>
-                    <option value="">Manuel</option>
-                    <option value="Concluido">Finalizado</option>
-                </select>
-                <input value="Desea Borrar?" class="boton_borrar" type="button"> 
             </li> -->
-    
         </section>
 
         <section class="main_derecha">
-            
             <h4>Para Añadir una tarea escriba en el cuadro y presione "Agregar": </h4>
-            <textarea type="text" id="nuevoValue" placeholder="Escribir aquí..." rows="3"></textarea> 
-            
-            <button onclick="agregar()" id="Btn_agregarTareas" class="Btn_agregarTareas" type="button" >Agregar</button>
-            <!--  <button onclick="agregaBorrar()" class="Btn_borrarFinalizados" type="button" onchange="" >Borrar tareas finalizadas</button>                    -->
-
+            <textarea type="text" id="nuevoValue" placeholder="Escribir aquí..." rows="3"></textarea>
+            <button onclick="agregar()" id="Btn_agregarTareas" class="Btn_agregarTareas" type="button">Agregar</button>
         </section>
 
     </main>
 
     <footer>
-
+        <p>Ariel Romera</p>
+        <p>contacto@arielromera.com.ar</p>
     </footer>
 
     <script type="text/javascript" src="./parte2.js"></script>

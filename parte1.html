@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parte 1</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="./parte1.css">
+</head>
+
+<body>
+  <header>
+    <h1>Elegí tu vehículo comparando marcas</h1>
+    <ul>
+      <a href="#camionetas">
+        <li>Camionetas</li>
+      </a>
+      <a href="#suv">
+        <li>SUV</li>
+      </a>
+      <a href="#familiares">
+        <li>Familiar</li>
+      </a>
+      <a href="#urbanos">
+        <li>Urbano</li>
+      </a>
+    </ul>
+  </header>
+
+  <main>
+    <section id="camionetas" class="camionetas">
+      <div class="col_slider">
+        <h2>Compará las Pick Up</h2>
+
+        <div class="imagenes">
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="./imagenes/hilux01.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./imagenes/hilux02.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="./imagenes/hilux03.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="./imagenes/amarok01.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="./imagenes/amarok02.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="./imagenes/amarok03.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="./imagenes/ranger01.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="./imagenes/ranger02.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="./imagenes/ranger03.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col_detalles">
+        <p> <strong> Marca: Toyota - Modelo: Hilux</strong> </p>
+        <p> <strong> Características: </strong> Todas las versiones vienen equipadas con audio con pantalla táctil de 8”
+          y conectividad Android Auto® y Apple CarPlay®* y control de velocidad crucero
+          Las versiones SR cuentan con llantas de aleación 17" con neumáticos 265/65 R17 AT, y faros delanteros
+          halógenos con regulación en altura y sistema "Follow me home". </p>
+        <p class="precio" style="text-align: right; padding: 0 25px 0 0 ;"> Precio desde: <strong>$11.530.000</strong>
+        </p>
+        <hr>
+        <p> <strong> Marca: Volkswagen - Modelo: Amarok</strong> </p>
+        <p> <strong> Características: </strong> Ya sea en la eficiencia de los 140 CV de la versión Trendline, en el
+          balance perfecto de los 180 CV y 2.0 litros de las opciones Comfortline o Highline, o en la potencia brutal
+          del V6 3.0 con 258 CV y 580 Nm, Amarok te asegura versatilidad y durabilidad en toda su gama.
+          En donde sea que estés buscando la pick up ideal para vos, Amarok te encuentra. </p>
+        <p class="precio" style="text-align: right; padding: 0 25px 0 0 ;"> Precio desde: <strong>$12.000.000</strong>
+        </p>
+        <hr>
+        <p> <strong> Marca: Ford - Modelo: Ranger</strong> </p>
+        <p> <strong> Características: </strong> El ícono de la Raza Fuerte, totalmente renovada y mejorada. Cuenta con
+          un motor 2.0L Turbo Diesel, que ofrece 170 CV de potencia y 405 Nm de torque combinados con una caja manual de
+          6 velocidades. </p>
+        <p class="precio"> Precio desde: <strong>$11.890.000</strong>
+        </p>
+      </div>
+      <p class="vaFormulario">Completá el <a href="#form"> Formulario &#8595 </a>para recibir más información</p>
+    </section>
+
+    <section id="suv" class="suv">
+      <div class="col_detalles">
+        <p> <strong> Marca: Toyota - Modelo: Corolla Cross</strong> </p>
+        <p> <strong> Características: </strong> El Corolla Cross cuenta con un motor 2.0 L Dynamic Force con cadena de
+          distribución y sistema Dual VVT-i (VVT-iE de admisión)
+          e inyección mixta D4-S (directa e indirecta). Brinda un excelente equilibrio entre bajo consumo y performance
+          con una potencia de 170 CV. </p>
+        <p class="precio"> Precio desde: <strong>$10.876.000</strong></p>
+        <hr>
+        <p> <strong> Marca: Volkswagen - Modelo: T-Cross</strong> </p>
+        <p> <strong> Características: </strong>El T-Cross de siempre viene más recargado que nunca con la incorporación
+          de su nuevo motor 200 TSI.
+          Aportándole una mayor eficiencia y una mejor autonomía al vehículo. Ofrece un consumo más económico y una
+          elevada potencia en toda la curva de aceleración. </p>
+        <p class="precio"> Precio desde: <strong>$11.100.000</strong>
+        </p>
+        <hr>
+        <p> <strong> Marca: Ford - Modelo: Territory </strong> </p>
+        <p> <strong> Características: </strong> Motorización 1.8L EcoBoost con 185 CV de potencia & 320 Nm de torque
+          Sistema multimedia con pantalla táctil de 12". Monitoreo de punto ciego con alerta de tráfico cruzado </p>
+        <p class="precio"> Precio desde: <strong>$14.785.000</strong>
+        </p>
+      </div>
+      <div class="col_slider">
+        <h2>Compará las SUV</h2>
+
+        <div class="imagenes">
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="./imagenes/ccross01.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./imagenes/ccross02.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./imagenes/ccross03.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./imagenes/tcross01.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./imagenes/tcross02.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./imagenes/tcross03.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./imagenes/territory01.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./imagenes/territory02.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./imagenes/territory03.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <p class="vaFormulario">Completá el <a href="#form"> Formulario &#8595 </a>para recibir más información</p>
+    </section>
+
+    <section id="familiares" class="familiares">
+      <div class="col_slider">
+        <h2 class="colorSobreBlanco">Compará Vehículos Familiares</h2>
+        <div class="imagenes">
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="5000">
+                <img src="./imagenes/corolla01.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./imagenes/corolla02.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./imagenes/corolla03.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./imagenes/virtus01.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./imagenes/virtus02.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./imagenes/virtus03.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./imagenes/cruze01.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./imagenes/cruze02.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./imagenes/cruze03.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col_detalles">
+        <p> <strong> Marca: Toyota - Modelo: Corolla</strong> </p>
+        <p> <strong> Características: </strong> El motor 2.0L Dynamic Force brinda un excelente equilibrio entre bajo
+          consumo y performance con una potencia de 170 CV y 200 NM.
+          La caja CVT de 10 velocidades otorgan una aceleración directa por medio de un engranaje mecánico adicional
+          para bajas velocidades.
+          Incorpora modo secuencial, levas al volante y modo de conducción SPORT. </p>
+        <p class="precio"> Precio desde: <strong>$7.740.000</strong>
+        </p>
+        <hr>
+        <p> <strong> Marca: Volkswagen - Modelo: Virtus </strong> </p>
+        <p> <strong> Características: </strong> El Nuevo Virtus GTS se convierte en una nueva referencia en deportividad
+          marcando diferencia con su gran espacio interno.
+          Su diseño imponente exclusivo trae detalles de altísima calidad en color rojo y negro sumados a las líneas
+          cromadas en su exterior. Su frontal aguerrido nos muestra toda la deportividad en una sola mirada. </p>
+        <p class="precio"> Precio desde: <strong>$7.600.000</strong>
+        </p>
+        <hr>
+        <p> <strong> Marca: Chevrolet - Modelo: Cruze</strong> </p>
+        <p> <strong> Características: </strong> El Cruze RS forma parte de la familia Rally Sport de Chevrolet, y cuenta
+          con toda la potencia para ser único.
+          Más que una versión deportiva, en el Cruze RS todos los detalles hacen la diferencia, como las nuevas llantas
+          oscurecidas de 17" y detalles en negro Ice Chrome en el frente.</p>
+        <p class="precio"> Precio desde: <strong>$7.514.900</strong>
+        </p>
+      </div>
+      <p class="vaFormulario colorSobreBlanco">Completá el <a href="#form"> Formulario &#8595 </a>para recibir más
+        información</p>
+    </section>
+
+    <section id="urbanos" class="urbanos">
+
+      <div class="col_detalles">
+        <p> <strong> Marca: Toyota - Modelo: Etios</strong> </p>
+        <p> <strong> Características: </strong> El motor con sistema Dual VVT-i (doble sincronización variable de
+          válvulas), se asocia a una transmisión manual de 6 marchas en las versiones X y XLS
+          Pack , y la versión automática de 4 marchas solo está disponible en la versión XLS Pack AT. Audio con pantalla
+          táctil de 7” y conectividad: Apple CarPlay® y Android Auto®. Disponible en versiones XLS Pack. Disponible solo
+          por conexión USB.
+          Espejos exteriores con luz de giro incorporada y regulación eléctrica. </p>
+        <p class="precio"> Precio desde: <strong>$5.000.000</strong>
+        </p>
+        <hr>
+        <p> <strong> Marca: Volkswagen - Modelo: Polo</strong> </p>
+        <p> <strong> Características: </strong> La transmisión automática Tiptronic de seis velocidades que equipa las
+          versiones MSI y Highline del Polo,
+          se caracteriza por arranques suaves y cambios rápidos.
+          Existe la opción de cambios Tiptronic secuenciales manuales, operados por medio de la palanca de transmisión o
+          por las levas de cambio en el volante (solo versión Highline)
+          junto con el modo de conducción deportiva (posición "S"). </p>
+        <p class="precio"> Precio desde: <strong>$5.870.000</strong>
+        </p>
+        <hr>
+        <p> <strong> Marca: Chevrolet - Modelo: Joy </strong> </p>
+        <p> <strong> Características: </strong> El Joy viene con motor 1.4 y cambio manual de 5 velocidades, carrocería
+          completamente renovada.
+          La exclusiva versión Black Bow Tie tiene faros oscurecidos, detalles en negro high gloss en la parrilla
+          delantera y en los espejos laterales. </p>
+        <p class="precio"> Precio desde: <strong>$4.932.000</strong>
+        </p>
+      </div>
+      <div class="col_slider">
+        <h2>Compará Vehículos Urbanos</h2>
+        <div class="imagenes">
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="./imagenes/etios01.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="5000">
+                <img src="./imagenes/etios02.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="./imagenes/etios03.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./imagenes/polo01.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./imagenes/polo02.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./imagenes/polo03.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./imagenes/joy01.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="./imagenes/joy02.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./imagenes/joy03.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <p class="vaFormulario">Completá el <a href="#form"> Formulario &#8595 </a>para recibir más información</p>
+    </section>
+
+    <form id="form" action="">
+      <label for="">Nombre y Apellido</label>
+      <p><input placeholder="Ingrese su nombre" id="nombre" class="forminp" type="text" required></p>
+
+      <label for="">Mail</label>
+      <p><input placeholder="Ingrese su e-mail" id="mail" class="forminp" type="email" required></p>
+
+      <label for="">Elegir Marca: </label>
+      <p><select name="" id="marca" required>
+          <option value="Toyota">Toyota</option>
+          <option value="Volkswagen">Volkswagen</option>
+          <option value="Ford">Ford</option>
+          <option value="Chevrolet">Chevrolet</option>
+        </select></p>
+
+      <label for="">Elegir Tipo de Vehículo </label>
+      <p><select name="" id="tipo">
+          <option value="camionetas Pick Up">Pick Up</option>
+          <option value="camionetas SUV">Camioneta SUV</option>
+          <option value="autos familiares">Auto Familiar</option>
+          <option value="autos urbanos">Auto Urbano</option>
+        </select></p>
+
+      <label for="">Elegir Modelos</label>
+      <p><select name="" id="gama">
+          <option value="línea alta">Gama Alta</option>
+          <option value="línea media">Gama Media</option>
+          <option value="línea base">Línea base</option>
+        </select></p>
+
+      <li>
+        <label for=""></label><input type="checkbox" checked value="acepta" id="acepta"> Acepto recibir
+        publicidad</label>
+      </li>
+
+      <div id="botones" class="botones">
+        <button type="reset" class="btn btn-primary btn_limpiar">Limpiar </button>
+        <button type="button" class="btn btn-primary btn_enviar" onclick="imprimePorConsola()">Enviar</button>
+      </div>
+    </form>
+  </main>
+
+  <div id="oficial" class="oficial">
+    <p>Acceso a los sitios oficiales de las marcas: </p>
+    <ul>
+      <a href="https://www.toyota.com.ar/" target="_blank">
+        <li> <img src="./imagenes/logo1.png" alt=""></li>
+      </a>
+      <a href="https://www.volkswagen.com.ar/es.html" target="_blank">
+        <li><img src="./imagenes/logo2.png" alt=""></li>
+      </a>
+      <a href="https://www.ford.com.ar/" target="_blank">
+        <li><img src="./imagenes/logo3.png" alt=""></li>
+      </a>
+      <a href="https://www.chevrolet.com.ar/" target="_blank">
+        <li><img src="./imagenes/logo4.png" alt=""></li>
+      </a>
+    </ul>
+  </div>
+  <footer>
+    <p>Ariel Romera</p>
+    <p>contacto@arielromera.com.ar</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <script src="./parte1.js"></script>
+</body>
+
+</html>

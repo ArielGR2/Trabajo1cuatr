@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    min-height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding: 8px 0 0 0;
+    background-color: #eae4cb ;
+    border-bottom : 7px solid #d87111;
+}
+
+header li {
+    display: inline;
+    border: 3px solid red;
+/*Generado con: https://css3buttongenerator.com/ */
+    -webkit-border-radius: 18;
+    -moz-border-radius: 18;
+    border-radius: 18px;
+    font-family: Arial;
+    color: #090a0a;
+    font-size: 20px;
+    background: #eae4cb;
+    padding: 10px 20px 10px 20px;
+    border: solid #7d777d 1px;
+    text-decoration: none;
+}
+
+header li:hover {
+    background: #d3d6d8;
+    text-decoration: none;
+}
+/* ******* */
+
+h1 {
+    text-align: center;
+    color: #ac5a0e;
+    font-weight: 400;
+}
+
+h2 {
+    width: 100%;
+    margin: 0;
+    padding: 0 0 45px;
+    color: azure;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.camionetas {
+    background-color: #142775;
+}
+
+.suv {
+    background-color: #7fafc2;
+}
+
+.familiares {
+    background-color: #edf0f3;
+}
+
+.urbanos {
+    background-color: #a8a7bd;
+}
+
+form {
+    width: 40%;
+    padding: 35px;
+    margin: 55px auto 55px;
+    border: 1px solid rgb(41, 38, 74);
+/* Creado con: https://css3buttongenerator.com/ */
+    box-shadow: 1px 2px 31px 21px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px 2px 31px 21px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 2px 31px 21px rgba(0, 0, 0, 0.75);
+}
+
+
+main section {
+    margin: 0;
+    padding: 55px 10px 5px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 7px;
+}
+
+.col_slider {
+    display: inline;
+    width: 35%;
+    min-width: 350px;
+}
+
+.imagenes {
+    height: 300px;
+    background-color: #d4dfea;
+    border: 3px solid hwb(206 29% 3%);
+}
+
+.suv {
+    flex-wrap: wrap-reverse;
+}
+
+.urbanos {
+    flex-wrap: wrap-reverse;
+}
+
+img {
+    width: 300px;
+    height: 295px;
+}
+
+.colorSobreBlanco {
+    color: #7fafc2;
+}
+
+.col_detalles {
+    display: inline;
+    width: 55%;
+    margin: 30px;
+    padding: 10px 6px 0 6px;
+    min-height: 200px;
+    background-color: #d4dfea;
+    border: 3px solid hwb(206 29% 3%);
+    border-radius: 10px;
+}
+
+.vaFormulario {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 35px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.camionetas .vaFormulario {
+    color: #ffffff;
+}
+
+.suv .vaFormulario {
+    order: -1;
+}
+
+.urbanos .vaFormulario {
+    order: -1;
+}
+
+.precio {
+    text-align: right;
+    padding: 0 25px 0 0;
+}
+
+.forminp {
+    width: 90%;
+}
+
+.botones {
+    margin: 25px 10px 10px 10px;
+    padding: 0 25px 0 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: flex-end;
+}
+
+.btn_limpiar {
+    width: 95px;
+    background-color: red;
+}
+
+.btn_limpiar:hover {
+    background-color: rgb(201, 3, 3);
+}
+
+.btn_enviar {
+    width: 95px;
+}
+
+.oficial {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 10px;
+    background-color: #d4dfea;
+}
+
+.oficial ul li {
+    display: inline-block;
+    padding: 2px;
+    width: 85px;
+    height: 80px;
+}
+
+.oficial img {
+    width: 100%;
+    height: 100%;
+}
+
+.oficial p {
+    display: inline;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.oficial ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    height: 60px;
+    margin: 0;
+    padding: 2px;
+    background-color: #1d1f20;
+}
+
+footer p {
+    text-align: center;
+    color: #ffffff;
+    margin: 0px;
+}
